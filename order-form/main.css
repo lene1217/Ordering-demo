@@ -1,0 +1,143 @@
+body {
+  background: rgba(241, 238, 238, 0.753)
+}
+
+.container {
+  max-width: 1024px;
+}
+
+
+.top-navbar a {
+  color: rgb(224, 219, 219);
+  text-decoration: none;
+}
+ 
+.top-navbar a:hover {
+  color: white
+}
+.top-navbar {
+  background: black;
+  padding: 6px 0;
+}
+.top-navbar a.active {
+  color: rgb(255, 230, 0)
+}
+
+.top-navbar .left,
+.top-navbar .right {
+  margin: 0
+}
+
+.top-navbar .left a {
+  float: left;
+  padding-left: 0;
+  padding-right: 25px
+}
+
+.top-navbar .right a {
+  float: right;
+  padding-right: 0;
+  padding-left: 20px
+}
+.main-navbar,
+.classify-list .container,
+.classify-main .container {
+  background: white;
+}
+.main-navbar {
+  padding-top: 9px;
+  padding-bottom: 18px;
+}
+
+.navbar-brand,
+ .navbar-brand .left,
+ .navbar-brand .right{
+  padding: 0;
+  margin: 0
+}
+.navbar-logo {
+  border: 1px solid rgba(241, 238, 238, 0.753);
+  margin-top: 5px;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.navbar-logo img{
+   width: 65px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.5)
+}
+
+.main-navbar .logo{
+  font-weight: 600;
+  font-size: 150%;
+  padding-top: 12px;
+  padding-left: 5px;
+}
+.main-navbar .info {
+  font-size: 80% ;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-weight: 500;
+  color: rgb(128, 125, 124)
+}
+
+.navbar-left {
+  padding-top: 10px
+}
+.navbar-left a {
+  display: inline-block;
+  font-size: 115%;
+  padding-top: 10px;
+  padding-right: 30px;
+  color: rgb(88, 86, 86);
+  text-decoration: none
+}
+
+.navbar-left a:hover {
+  color: rgb(255, 136, 0)
+}
+.search-bar {
+  margin-top: 12px;
+}
+
+.list {
+  background: white;
+  margin-top: 10px;
+  margin-left: -15px;
+  margin-right: -5px;
+  padding: 20px 0;
+}
+.item{
+  padding: 20px;
+}
+
+.item.active {
+  background:rgba(0, 0, 0, 0.025)
+}
+.item a{
+  color: rgb(66, 64, 64);
+}
+
+.item a:hover,
+.main-bar a:hover {
+  text-decoration: none;
+}
+.main-bar {
+  background: white;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 180px;
+}
+
+.navbar-left .yellow {
+  color: rgb(255, 136, 0)
+}
+.main-bar a{
+  color:  rgb(255, 136, 0)
+}

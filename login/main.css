@@ -1,0 +1,37 @@
+body {
+  background: rgb(250, 248, 248)
+}
+
+.container {
+  max-width: 400px;
+  margin-top: 100px;
+  background: white;
+}
+
+.header {
+  font-size: 180%;
+  font-weight: 800;
+  padding: 26px 0;
+}
+.btn {
+  display: block
+}
+.info {
+  padding-bottom: 20px;
+  padding-left: 8px;
+}
+a {
+  text-decoration: none;
+  padding-right: 8px;
+  color: rgb(161, 156, 156)
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 174, 0)
+}
+
+.footer {
+  color:  rgb(161, 156, 156);
+  padding-bottom: 80px;
+}
